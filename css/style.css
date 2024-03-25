@@ -1,0 +1,612 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+.colo_negro{
+    background-color: #141414;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    border-radius: 0px 0px .5em .5em;
+}
+.oa{
+    display: flex;
+}
+.fondo{
+    background-color: orange;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    margin-left: 6%;
+    margin-top: 1%;
+    padding: 0%;
+
+}
+.pho{
+    
+    margin-left: 2.2%;
+    margin-top: 1.8%;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}
+.tit_pri{
+    margin-left: 1%;
+    margin-right: 40%;
+    margin-top: -4%;
+}
+.dedi{
+    color: white;
+    
+} 
+.dedi1{
+    display: none;
+    color: white;
+    
+} 
+.nom{
+    color: white;
+}
+.mov{
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+.iconos{
+    
+    width: 100%;
+    height: auto;
+    margin-top: 1%;
+    display: flex;
+}
+.bot{
+    margin-top: 0%;
+    margin-left: 33%;
+}
+.bt_inicio{
+    width: 100px;
+    height: 40px;
+    background-color:#141414 ;
+    color: white;
+    border: none;
+}
+.bt_informacion{
+    margin-left: 2%;
+    width: 120px;
+    height: 40px;
+    background-color:#141414 ;
+    color: white; 
+    border: none;
+}
+
+.bt_proyectos{
+    margin-left: 2%;
+    width: 110px;
+    height: 40px;
+    background-color:#141414 ;
+    color: white; 
+    border: none;
+}
+.bt_Certificaciones{
+    margin-left: 2%;
+    width: 130px;
+    height: 40px;
+    background-color:#141414 ;
+    color: white; 
+    border: none;
+}
+.descrip_inicio{
+    text-align: justify;
+    font-size: 18px;
+}
+
+#information{
+    display: none ;
+}
+.bio{
+    margin-top: 0%;
+    text-align: center;
+}
+.dat{
+    background-color: #1A1A1A ;
+    border-radius: .5em;
+    margin-top: 3%;
+}
+.info{
+    text-align: center;
+    font-size: 20px;
+}
+.cont{
+    /* display: flex; */
+    margin-left: 10.5%;
+    margin-right: 10.5%;
+}
+.espacio{
+    padding-top: 1%;
+}
+.espacio1{
+    padding-top: 1.9%;
+}
+.tit_info{
+    font-size: 16px;  
+}
+.añ{
+    margin-left:22%;
+    margin-top: 0%;
+    font-size: 15px;
+}
+.center{
+    text-align:  justify;
+}
+.cont2{
+    margin-left: 10.5%;
+    margin-right: 10.5%;
+}
+.master{
+    margin-left: 22%;
+    margin-top: 2%;
+    font-size: 15px;
+}
+.or{
+    color: orange;
+}
+footer{
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+    background-color: #141414 ;
+    height: 60px; 
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+}
+.pie{
+    padding-left: 4%;
+    padding-top: 2%;
+    font-size: 18px;
+}
+@media (max-width: 1361px){
+    .tit_pri{
+        margin-left: 1%;
+        margin-right: 39%;  
+        margin-top: -4%;
+    }  
+    .bot{
+        margin-left: 37%;
+    }
+}
+@media (max-width: 1268px){
+    .tit_pri{
+        margin-left: 1%;
+        margin-right: 35%;  
+        margin-top: -4%;
+    } 
+    
+}
+/*  */
+@media (max-width: 1199px){
+    .espacio{
+        padding-top: 1%;
+    }
+    .espacio1{
+        padding-top: 5.4%;
+    }
+}
+@media (max-width: 1182px){
+    .tit_pri{
+        margin-left: 1%;
+        margin-right: 32%;  
+        margin-top: -4%;
+    } 
+     
+}
+@media (max-width: 1125px){
+    .tit_pri{
+        margin-left: 1%;
+        margin-right: 29%;  
+        margin-top: -4%;
+    }
+    .bot{
+        margin-left: 34%;
+    }   
+}
+@media (max-width: 1075px){
+    .tit_pri{
+        margin-left: 1%;
+        margin-right: 26%;  
+        margin-top: -4%;
+    }  
+}
+@media (max-width: 1027px){
+    .tit_pri{
+        margin-left: 1%;
+        margin-right: 23%;  
+        margin-top: -4%;
+    }  
+    .bot{
+        margin-left: 32%;
+    } 
+}
+@media (max-width: 1006px){
+    .tit_pri{
+        margin-left: 1%;
+        margin-right: 20%;  
+        margin-top: -4%;
+    }  
+    .bot{
+        margin-left: 31%;
+    } 
+}
+@media (max-width: 991px){
+    .master{
+        margin-left: 17%;
+        margin-top: 2%;
+    }
+    .añ{
+        margin-left: 17%;
+    }
+    .espacio1{
+        padding-top: 2%;
+    }
+}
+@media (max-width: 968px){
+    .tit_pri{
+        margin-left: 1%;
+        margin-right: 19%;  
+        margin-top: -4%;
+    }  
+    .bot{
+        margin-left: 28%;
+    } 
+}
+@media (max-width: 932px){
+    .tit_pri{
+        margin-left: 1%;
+        margin-right: 18%;  
+        margin-top: -4%;
+    }  
+    .fondo{
+        margin-left: 2%;
+    }
+    
+}
+@media (max-width: 880px){
+    .tit_pri{
+        margin-left: 1%;
+        margin-right: 16%;  
+        margin-top: -3%;
+    }  
+    .fondo{
+        margin-left: 1%;
+        width: 220px;
+        height: 220px;
+    }
+    .pho{
+        width: 210px;
+        height: 210px;
+    }
+}
+@media (max-width: 836px){
+    .tit_pri{
+        margin-left: 1%;
+        margin-right: 12%;  
+        margin-top: -3%;
+    }  
+    .fondo{
+        margin-left: 1%;
+        width: 210px;
+        height: 210px;
+    }
+    .pho{
+        width: 200px;
+        height: 200px;
+    }
+    .bot{
+        margin-left: 24%;
+    }
+}
+@media (max-width: 815px){
+    .tit_pri{
+        margin-left: 1%;
+        margin-right: 10%;  
+        margin-top: -3%;
+    }  
+    .fondo{
+        margin-left: 0%;
+        width: 210px;
+        height: 210px;
+    }
+    .pho{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+@media (max-width: 769px){
+    .tit_pri{
+        margin-left: 1%;
+        margin-right: 9%;  
+        margin-top: -3%;
+    }  
+    .fondo{
+        margin-left: 0%;
+        width: 195px;
+        height: 195px;
+    }
+    .pho{
+        width: 185px;
+        height: 185px;
+        margin-left: 2.5%;
+    }
+    .bot{
+        margin-left: 22%;
+    }
+}
+@media (max-width: 767px){
+    .master{
+        margin-left: 22%;
+        margin-top: 2%;
+    }
+    .añ{
+        margin-left: 26%;
+    }
+}
+@media (max-width: 742px){
+    .tit_pri{
+        margin-left: 1%;
+        margin-right: 6%;  
+        margin-top: -3%;
+    }  
+    .fondo{
+        margin-left: 0%;
+    }
+    .bot{
+        margin-left: 20%;
+    }
+}
+@media (max-width: 711px){
+    .tit_pri{
+        margin-left: 1%;
+        margin-right: 4%;  
+        margin-top: -3%;
+    }  
+    .fondo{
+        margin-left: 0%;
+        width: 180px;
+        height: 180px;
+    }
+    .pho{
+        width: 170px;
+        height: 170px;
+        margin-left: 2.5%;
+        margin-top: 2.5%;
+    }
+    .bot{
+        margin-left: 18%;
+    }
+}
+@media (max-width: 682px){
+    .tit_pri{
+        margin-left: 1%;
+        margin-right: 2%;  
+        margin-top: -3%;
+    }  
+    .fondo{
+        margin-left: 0%;
+        width: 170px;
+        height: 170px;
+    } 
+    .pho{
+        width: 160px;
+        height: 160px;
+        margin-left: 2.8%;
+        margin-top: 3%;
+    }
+    .bot{
+        margin-left: 17%;
+    }
+}
+@media (max-width: 658px){
+    .tit_pri{
+        margin-left: 1%;
+        margin-right: 0%;  
+        margin-top: -3%;
+    }  
+    .fondo{
+        margin-left: 0%;
+        width: 155px;
+        height: 155px;
+    } 
+    .pho{
+        width: 145px;
+        height: 145px;
+        margin-left: 3%;
+        margin-top: 2.7%;
+    }
+}
+@media (max-width: 630px){
+    .tit_pri{
+        margin-left: 1%;
+        margin-right: 2%;  
+        margin-top: -3%;
+    }  
+    .fondo{
+        margin-left: 0%;
+        width: 130px;
+        height: 130px;
+    } 
+    .pho{
+        width: 120px;
+        height: 120px;
+        margin-left: 3.5%;
+        margin-top: 3.2%;
+    }
+    .bot{
+        margin-left: 14%;
+    }
+}
+@media (max-width: 614px){
+    .tit_pri{
+        margin-left: 1%;
+        margin-right: 3%;  
+        margin-top: -3%;
+    }  
+    .fondo{
+        margin-left: 0%;
+        width: 120px;
+        height: 120px;
+    } 
+    .pho{
+        width: 110px;
+        height: 110px;
+        margin-left: 3.8%;
+        margin-top: 3.8%;
+    }
+    .dedi{
+        text-align: justify;
+    }
+}
+@media (max-width: 609px){
+    
+    .tit_pri{
+        margin-left: 0%;
+        margin-right: 5%;  
+        margin-top: 0%;
+    }  
+    .fondo{
+        margin-left: 0%;
+    } 
+    .bot{
+        margin-top: 3%;
+        margin-left: 12%;
+    }
+}
+@media (max-width: 600px){
+    .bot{
+        margin-top: 3%;
+        margin-left: 10%;
+    }
+}
+@media (max-width: 560px){
+    .bot{
+        margin-top: 3%;
+        margin-left: 8%;
+    }
+}
+@media (max-width: 550px){
+    .bot{
+        margin-top: 3%;
+        margin-left: 6%;
+    }
+}
+@media (max-width: 530px){
+    .bot{
+        margin-top: 3%;
+        margin-left: 4%;
+    }
+}
+@media (max-width: 521px){
+    .master{
+        margin-left: 24%;
+        margin-top: 2%;
+    }
+    .añ{
+        margin-left: 26%;
+    }
+    .bot{
+        margin-top: 3%;
+        margin-left: 3%;
+    }
+}
+@media (max-width: 500px){
+    .bot{
+        margin-top: 3%;
+        margin-left: 0%;
+        font-size: 15px;
+    }
+}
+@media (max-width: 490px){
+    .bot{
+        margin-top: 3%;
+        margin-left: -1%;
+        font-size: 14px;
+    }
+}
+@media (max-width: 468px){
+    .bot{
+        margin-top: 3%;
+        margin-left: -1%;
+        font-size: 14px;
+    }
+    .bot{
+        margin-top: 0%;
+        margin-left: -3%;
+        font-size: 14px;
+    }
+}
+@media (max-width: 468px){
+    .tit_pri{
+        margin-left: 1%;
+        margin-right: 0%;  
+        margin-top: 0%;
+    } 
+    .dedi{
+        display: none;
+        
+    }
+    .dedi1{
+        display: block;
+        
+    }
+    
+    
+}
+ 
+
+
+h4,p{
+    padding: 0%;
+    margin: 0%;
+    margin-top: 15px;
+}
+p{
+    font-size: 14px;
+}
+
+#proyect{
+    display: none ;
+}
+.tit-proyect{
+    font-size: 20px;
+}
+.des_proyect{
+    font-size: 15px;
+    text-align: justify;
+}
+#certficados{
+    display: none;
+}
+.cursos{
+    margin: 0%;
+    font-size: 25px;
+}
+.tit_certificacion{
+    font-size: 20px;
+}
+.pdf{
+    width: 100%;
+    height: 200px;
+}
+.text_ver{
+    color: white;
+}
+.mover{
+    text-align: right;
+}
