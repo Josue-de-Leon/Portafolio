@@ -74,5 +74,31 @@ function certificar() {
     $project.style.border="none";
     $certi.style.borderBottom="2px solid orange";
 }
+function corazon(){
+    document.getElementById('corazon1').style.display = 'none';
+    document.getElementById('corazon2').style.display = 'block';
+}
+function corazon2(){
+    document.getElementById('corazon1').style.display = 'block';
+    document.getElementById('corazon2').style.display = 'none';
+}
 
 
+var imgContainer = document.getElementById("imgContainer");
+
+  // Función para cambiar la imagen cuando el tamaño de la ventana cambia
+  function cambiarImagen() {
+    var img = imgContainer.querySelector("img");
+
+    // Obtener el ancho del contenedor
+    var containerWidth = imgContainer.offsetWidth;
+
+    // URL de la imagen alternativa
+    var nuevaImagenURL = (containerWidth <= 600) ? "../img/code 2.jpg" : "img/code.jpg";
+
+    // Cambiar la fuente de la imagen
+    img.src = nuevaImagenURL;
+  }
+   // Ejecutar la función cuando se carga la página y cuando cambia el tamaño de la ventana
+   window.addEventListener("load", cambiarImagen);
+   window.addEventListener("resize", cambiarImagen);
